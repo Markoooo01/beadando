@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+header h1{
+    padding: 0px;
+    margin: 0px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    background-color: rgb(236, 162, 120);
+    padding: 10px;
+}
+footer p{
+    padding: 0px;
+    margin: 0px;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 60%;
+    
+}
+table td,th{
+    border: 1px solid black;
+    padding: 15px;
+    vertical-align: middle;
+}
+table img{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
